@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02FF9CA76C540C9D56BD68BB /* Pods_AppCenter2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3FBB19414EA5B261D99E2 /* Pods_AppCenter2.framework */; };
 		EFAB5F8224536DD300F990B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB5F8124536DD300F990B7 /* AppDelegate.swift */; };
 		EFAB5F8424536DD300F990B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB5F8324536DD300F990B7 /* SceneDelegate.swift */; };
 		EFAB5F8624536DD300F990B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB5F8524536DD300F990B7 /* ViewController.swift */; };
 		EFAB5F8924536DD300F990B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAB5F8724536DD300F990B7 /* Main.storyboard */; };
 		EFAB5F8B24536DD300F990B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAB5F8A24536DD300F990B7 /* Assets.xcassets */; };
 		EFAB5F8E24536DD300F990B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAB5F8C24536DD300F990B7 /* LaunchScreen.storyboard */; };
+		EFAB5F9C245375AD00F990B7 /* AppCenter2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB5F9B245375AD00F990B7 /* AppCenter2UITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EFAB5F9E245375AD00F990B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAB5F7624536DD300F990B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAB5F7D24536DD300F990B7;
+			remoteInfo = AppCenter2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		284F6303E9F5A187A1D447C3 /* Pods-AppCenter2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenter2.debug.xcconfig"; path = "Target Support Files/Pods-AppCenter2/Pods-AppCenter2.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F3FBB19414EA5B261D99E2 /* Pods_AppCenter2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCenter2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22085223AD8DC2A3F072E5E /* Pods-AppCenter2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenter2.release.xcconfig"; path = "Target Support Files/Pods-AppCenter2/Pods-AppCenter2.release.xcconfig"; sourceTree = "<group>"; };
 		EFAB5F7E24536DD300F990B7 /* AppCenter2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCenter2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAB5F8124536DD300F990B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAB5F8324536DD300F990B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,10 +39,21 @@
 		EFAB5F8A24536DD300F990B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAB5F8D24536DD300F990B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFAB5F8F24536DD300F990B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAB5F99245375AD00F990B7 /* AppCenter2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCenter2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAB5F9B245375AD00F990B7 /* AppCenter2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCenter2UITests.swift; sourceTree = "<group>"; };
+		EFAB5F9D245375AD00F990B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFAB5F7B24536DD300F990B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FF9CA76C540C9D56BD68BB /* Pods_AppCenter2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB5F96245375AD00F990B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +63,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12D755A5505CA56B41AE007B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F3FBB19414EA5B261D99E2 /* Pods_AppCenter2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97C94C6BE9884DDCC5ACCCB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				284F6303E9F5A187A1D447C3 /* Pods-AppCenter2.debug.xcconfig */,
+				E22085223AD8DC2A3F072E5E /* Pods-AppCenter2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EFAB5F7524536DD300F990B7 = {
 			isa = PBXGroup;
 			children = (
 				EFAB5F8024536DD300F990B7 /* AppCenter2 */,
+				EFAB5F9A245375AD00F990B7 /* AppCenter2UITests */,
 				EFAB5F7F24536DD300F990B7 /* Products */,
+				97C94C6BE9884DDCC5ACCCB9 /* Pods */,
+				12D755A5505CA56B41AE007B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				EFAB5F7E24536DD300F990B7 /* AppCenter2.app */,
+				EFAB5F99245375AD00F990B7 /* AppCenter2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +114,15 @@
 			path = AppCenter2;
 			sourceTree = "<group>";
 		};
+		EFAB5F9A245375AD00F990B7 /* AppCenter2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB5F9B245375AD00F990B7 /* AppCenter2UITests.swift */,
+				EFAB5F9D245375AD00F990B7 /* Info.plist */,
+			);
+			path = AppCenter2UITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +130,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFAB5F9224536DD300F990B7 /* Build configuration list for PBXNativeTarget "AppCenter2" */;
 			buildPhases = (
+				9FAA58E22A069EFFB737E14C /* [CP] Check Pods Manifest.lock */,
 				EFAB5F7A24536DD300F990B7 /* Sources */,
 				EFAB5F7B24536DD300F990B7 /* Frameworks */,
 				EFAB5F7C24536DD300F990B7 /* Resources */,
@@ -87,6 +144,24 @@
 			productReference = EFAB5F7E24536DD300F990B7 /* AppCenter2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EFAB5F98245375AD00F990B7 /* AppCenter2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAB5FA2245375AD00F990B7 /* Build configuration list for PBXNativeTarget "AppCenter2UITests" */;
+			buildPhases = (
+				EFAB5F95245375AD00F990B7 /* Sources */,
+				EFAB5F96245375AD00F990B7 /* Frameworks */,
+				EFAB5F97245375AD00F990B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAB5F9F245375AD00F990B7 /* PBXTargetDependency */,
+			);
+			name = AppCenter2UITests;
+			productName = AppCenter2UITests;
+			productReference = EFAB5F99245375AD00F990B7 /* AppCenter2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +174,10 @@
 				TargetAttributes = {
 					EFAB5F7D24536DD300F990B7 = {
 						CreatedOnToolsVersion = 11.4;
+					};
+					EFAB5F98245375AD00F990B7 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EFAB5F7D24536DD300F990B7;
 					};
 				};
 			};
@@ -116,6 +195,7 @@
 			projectRoot = "";
 			targets = (
 				EFAB5F7D24536DD300F990B7 /* AppCenter2 */,
+				EFAB5F98245375AD00F990B7 /* AppCenter2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +211,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFAB5F97245375AD00F990B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FAA58E22A069EFFB737E14C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppCenter2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EFAB5F7A24536DD300F990B7 /* Sources */ = {
@@ -144,7 +256,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFAB5F95245375AD00F990B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB5F9C245375AD00F990B7 /* AppCenter2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAB5F9F245375AD00F990B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAB5F7D24536DD300F990B7 /* AppCenter2 */;
+			targetProxy = EFAB5F9E245375AD00F990B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EFAB5F8724536DD300F990B7 /* Main.storyboard */ = {
@@ -282,6 +410,7 @@
 		};
 		EFAB5F9324536DD300F990B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284F6303E9F5A187A1D447C3 /* Pods-AppCenter2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +429,7 @@
 		};
 		EFAB5F9424536DD300F990B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22085223AD8DC2A3F072E5E /* Pods-AppCenter2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,6 +443,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFAB5FA0245375AD00F990B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				INFOPLIST_FILE = AppCenter2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodriguezchristopher.AppCenter2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppCenter2;
+			};
+			name = Debug;
+		};
+		EFAB5FA1245375AD00F990B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				INFOPLIST_FILE = AppCenter2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodriguezchristopher.AppCenter2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppCenter2;
 			};
 			name = Release;
 		};
@@ -333,6 +501,15 @@
 			buildConfigurations = (
 				EFAB5F9324536DD300F990B7 /* Debug */,
 				EFAB5F9424536DD300F990B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAB5FA2245375AD00F990B7 /* Build configuration list for PBXNativeTarget "AppCenter2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB5FA0245375AD00F990B7 /* Debug */,
+				EFAB5FA1245375AD00F990B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
